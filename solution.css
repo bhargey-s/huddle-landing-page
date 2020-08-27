@@ -226,11 +226,12 @@ a:nth-child(odd) {
 
 #copyright {
     position: absolute ;
-    width: 50vw ;
+    width: 70vw ;
     bottom: 1vh ;
-    left: 23vw ;
+    left: 15vw ;
     margin-top: 5vh ;
     color: white ;
+    text-align: center ;
 }
 #copyright p, #copyright a {
     margin: 0 ;
