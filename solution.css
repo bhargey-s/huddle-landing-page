@@ -184,6 +184,8 @@ a:nth-child(odd) {
 }
 #socialmedia img {
     margin-right: 1vw ;
+    width: 18px ;
+    height: 18px ;
 }
 #socialmedia img:hover {
     cursor: pointer ;
@@ -464,6 +466,8 @@ a:nth-child(6) {
 }
 #socialmedia img {
     margin-right: 4vw ;
+    width: 18px ;
+    height: 18px ;
 }
 
 #socialmedia img:hover {
