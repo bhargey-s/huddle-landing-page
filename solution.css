@@ -1,0 +1,530 @@
+/* For Desktop 1440px */
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: 'Open Sans';
+    font-size: 18px ;
+    color: hsl(192, 100%, 9%) ;
+    font-weight: 700 ;
+}
+body {
+    position: relative ;
+}
+
+ #introduction {
+    height: 110vh ;
+    background: #F6FDFF url(images/bg-hero-desktop.svg) ;
+    padding: 8vh 5vw 8vh 5vw;
+}
+
+#introFirstPart{
+    display: flex ;
+    justify-content: space-between ;
+}
+
+
+#introFirstPart span a{
+    padding: 2.4vh 4.2vw; 
+    margin: 0 ;
+    border-radius: 50px ;
+    background-color: white;  
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+    align-self: center ;
+    text-decoration: none ;
+}
+#introFirstPart span:hover {
+    cursor: pointer ;
+}
+
+#introSecPart {
+    margin-top: 11vh;
+    display: flex ;
+}
+
+#text {
+    width: 45vw;
+    margin-right: 5vw ;
+    align-self: center ;
+}
+#text h1{
+    font-family: 'Poppins' ;
+    font-weight: bolder;
+    font-size: 40px ;
+    margin-bottom: 5vh ;
+}
+#text p{
+    color: hsl(192, 100%, 9%) ;
+    font-family: 'Open Sans'; 
+    margin-bottom: 5vh ;
+    font-size: 20px ;
+    font-weight: 400 ;
+}
+#text span {
+    padding: 3vh 5vw; 
+    display: inline-block;
+    border-radius: 50px ;
+    background-color: #FF52C1;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+}
+#text a {
+    margin: 0 ;
+    color: white ;
+    text-align: center ;
+}
+#text span:hover {
+    cursor: pointer ;
+}
+#introSecPart img {
+    width: 50% ;
+}
+
+main{
+    display: flex ;
+    flex-direction: column ;
+    padding: 26vh 7vw 48vh 7vw ;
+}
+
+.boxes {
+    width: 100% ;
+    margin: 0 auto 6vh auto;
+    display: flex ;
+    justify-content: space-between;
+    padding: 5% 0 ;
+    border-radius: 10px ;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+}
+.boxes:nth-child(3){
+    margin: 0 auto ;
+}
+.boxes div {
+    width: 50% ;
+    align-self: center ;
+    margin: 0 3% 0 5% ;
+}
+.boxes div h1 {
+    width: 23vw ;
+    font-family: 'Poppins' ;
+    font-weight: bolder;
+    font-size: 26px ;
+    padding-bottom: 5% ;
+}
+.boxes div p{
+    width: 33vw;
+    color: hsl(208, 11%, 55%) ;
+    font-family: 'Open Sans'; 
+    font-size: 16.5px;
+    padding-bottom: 8% ;
+    font-weight: 400 ;
+}
+
+.boxes img {
+    height: 50vh ;
+    width: 30vw ;
+    margin: 0 3% 0 5% ;
+}
+.boxes:nth-child(2) img {
+    height: 46vh ;
+}
+
+footer {
+    height: 84vh ;
+    background-color: hsl(192, 100%, 9%) ;
+    padding: 30vh 8vw 20vh 8vw;
+    display: flex ;
+}
+
+footer a, footer p, footer span {
+    color: hsl(193, 100%, 96%) ;
+    font-weight: 400 ;
+    font-size: 15px ;
+}
+#contact {
+    width: 28vw ;
+    height: 40vh ;
+    margin-right: 8vw ;
+}
+#contact > img {
+    margin-bottom: 6vh ;
+}
+#contact ul li {
+    margin-bottom: 4vh ;
+    list-style: none ;
+}
+#contact ul li p{
+    display: inline;
+}
+#contact ul li img {
+    padding-right: 1.5vw ; 
+}
+
+#nav {
+    width: 26vw ;
+    margin-right: 8vw ;
+    padding: 12vh 0 8vh 0;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap ;
+}
+
+#nav a {
+    width: 8vw ;
+    margin-bottom: 4vh ;
+}
+a:nth-child(odd) {
+    margin-right: 8vw ;
+}
+#nav a:hover {
+    cursor: pointer ;
+}
+
+#socialmedia {
+    width: 16vw ;
+    padding: 12vh 5vw 18vh 2vw ; 
+}
+#socialmedia img {
+    margin-right: 1vw ;
+}
+#socialmedia img:hover {
+    cursor: pointer ;
+}
+
+#floatbox {
+    width: 56vw ;
+    padding: 11vh 9vw 8vh 9vw;
+    position: absolute ;
+    bottom: 70vh ;
+    left: 22vw ;
+    background-color: white ;
+    border-radius: 10px ;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+}
+#floatbox h1 {
+    font-family: 'Poppins' ;
+    font-weight: bolder;
+    font-size: 30px ;
+    margin-bottom: 7vh ;
+}
+#floatbox span {
+    width: 28vw ;
+    padding: 3vh 5vw; 
+    margin: 0 5vw ;
+    display: inline-block;
+    border-radius: 50px ;
+    background-color: #FF52C1;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+    text-align: center ;
+}
+#floatbox a {
+    margin: 0 ;
+    color: white ;
+    font-weight: 700 ;
+}
+#floatbox span:hover {
+    cursor: pointer ;
+}
+
+#copyright {
+    position: absolute ;
+    width: 50vw ;
+    bottom: 1vh ;
+    left: 23vw ;
+    margin-top: 5vh ;
+    color: white ;
+}
+#copyright p, #copyright a {
+    margin: 0 ;
+    color: white ;
+    font-weight: 400 ;
+    font-size: 15px ;
+}
+
+
+/* For Mobile 451px */
+
+@media screen and (max-width:451px){
+    
+ #introduction {
+    width: 100vw ;
+    height: 120vh ;
+    background: #F6FDFF url(images/bg-hero-mobile.svg);
+    padding: 3vh 4vw 3vh 4vw;
+}   
+    
+ #introFirstPart{
+    display: flex ;
+    justify-content: space-between ;
+}
+#introFirstPart img {
+    width: 28vw ;
+    height: 3vh ;
+    }
+
+#introFirstPart span a{
+    width: 14vw ;
+    padding: 1vh 6vw; 
+    font-size: 13px ;
+/*    margin-top:  ;*/
+    border-radius: 50px ;
+    background-color: white;  
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+    align-self: center ;
+    text-decoration: none ;
+}
+#introFirstPart span:hover {
+    cursor: pointer ;
+}   
+    
+#introSecPart {
+    margin-top: 10vh;
+    padding: 4vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+
+#text {
+    width: 82vw;
+    margin-right: 0 ;
+    display: flex;
+    flex-direction: column ;
+    align-items: center ;
+}
+#text h1{
+    width: 68vw ;
+    margin: 0;
+    font-family: 'Poppins' ;
+    font-weight: bolder;
+    font-size: 23px ;
+    margin-bottom: 4vh ;
+    text-align: center ;
+}
+#text p{
+    color: hsl(192, 100%, 9%) ;
+    font-family: 'Open Sans'; 
+    margin-bottom: 4vh ;
+    font-size: 16px ;
+    font-weight: 400 ;
+    text-align: center ;
+}
+#text span {
+    width: 65vw ;
+    padding: 2vh 16vw; 
+    margin-bottom: 7vh ;
+    display: inline-block;
+    border-radius: 50px ;
+    background-color: #FF52C1;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+}
+#text span a {
+    width: 33vw ;
+    font-size: 12px;
+    font-weight: 600 ;
+    margin: 0 ;
+    color: white ;
+    text-align: center ;
+}
+#text span:hover {
+    cursor: pointer ;
+}
+#introSecPart img {
+    width: 80vw ;
+}
+    
+    
+ main{
+    display: flex ;
+    flex-direction: column ;
+    padding: 8vh 5vw 38vh 5vw ;
+}
+
+.boxes {
+    width: 90vw ;
+    margin: 0 auto 5vh auto;
+    padding: 2.5vh 10vw 4.5vh 10vw;
+    display: flex ;
+    flex-direction: column-reverse;
+    align-items: center ;
+    border-radius: 10px ;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+}
+.boxes:nth-child(2) {
+    flex-direction: column ;
+}
+.boxes:nth-child(3){
+    margin: 0 auto ;
+}
+.boxes div {
+    width: 70vw ;
+    align-self: center ;
+    margin: 8vh 0 0 0 ;
+    text-align: center ;
+}
+.boxes div h1 {
+    width: 100% ;
+    padding: 0 ;
+    margin: 0 auto 2vh auto ;
+    margin-right: 0 ;
+    font-family: 'Poppins' ;
+    font-weight: bolder;
+    font-size: 20px ;
+}
+.boxes div p{
+    width: 68vw;
+    padding: 0 ;
+    margin: 0 auto;
+    color: hsl(208, 11%, 55%) ;
+    font-family: 'Open Sans'; 
+    font-size: 14px;
+    font-weight: 400 ;
+}
+.boxes:nth-child(3) div p {
+    font-size: 14.5px ;    
+}
+
+.boxes img {
+    margin: 0 ;
+}
+.boxes:nth-child(1) img {
+    height: 34vh ;
+    width: 62vw ;
+}
+.boxes:nth-child(2) img {
+    height: 28vh ;
+    width: 64vw ;
+}
+.boxes:nth-child(3) img {
+    height: 32vh ;
+    width: 65vw ;
+}   
+    
+    
+footer {
+    height: 135vh ;
+    background-color: hsl(192, 100%, 9%) ;
+    padding: 21vh 6vw 10vh 4vw;
+    display: flex ;
+    flex-direction: column ;
+}
+
+footer a, footer p, footer span {
+    color: hsl(193, 100%, 96%) ;
+    font-weight: 400 ;
+    font-size: 14px ;
+}
+#contact {
+    width: 90vw ;
+    height: 40vh ;
+    margin: 0 0 10.2vh 0;
+}
+#contact > img {
+    width: 46vw ;
+    height: 5vh ;
+    margin-bottom: 3vh ;
+}
+#contact ul li {
+    margin-bottom: 5vh ;
+    list-style: none ;
+}
+#contact ul li p{
+    display: inline;
+    width: 80vw ;
+}
+#contact ul li img {
+    padding-right: 4vw ; 
+}
+
+#nav {
+    width: 28vw ;
+    margin: 0 ;
+    padding: 0;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap ;
+}
+
+#nav a {
+    width:28vw ;
+    margin-bottom: 4vh ;
+}
+a:nth-child(6) {
+    margin: 0;
+}
+#nav a:hover {
+    cursor: pointer ;
+}
+
+#socialmedia {
+    width: 32vw ;
+    margin: 0 auto ;
+    padding: 0 ; 
+    display: flex;
+    justify-content: space-around ;
+}
+#socialmedia img {
+    margin-right: 4vw ;
+}
+
+#socialmedia img:hover {
+    cursor: pointer ;
+}
+  
+ #floatbox {
+    width: 94vw ;
+    padding: 8vh 7vw 6.5vh 7vw;
+    position: absolute ;
+    bottom: 125vh ;
+    left: 3vw ;
+    background-color: white ;
+    border-radius: 10px ;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+     display: flex ;
+     flex-direction: column ;
+     justify-content: center ;
+}
+#floatbox h1 {
+    font-family: 'Poppins' ;
+    font-weight: bolder;
+    font-size: 17.5px ;
+    margin-bottom: 5vh ;
+}
+#floatbox span {
+    width: 60vw ;
+/*    height: 6.5vh ;*/
+    padding: 2vh 14vw; 
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 50px ;
+    background-color: #FF52C1;
+    box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+    text-align: center ;
+}
+#floatbox span a {
+    margin: 0 ;
+    width: 28vw ;
+    height: 2.6vh ;
+    color: white ;
+    font-weight: 700 ;
+    font-size: 11px ;
+}
+#floatbox span:hover {
+    cursor: pointer ;
+}
+    
+ #copyright {
+    position: absolute ;
+    width: 90vw ;
+    bottom: 8vh ;
+    left: 5vw;
+    margin: 0 auto ;
+    color: white ;
+    text-align: center ;
+}
+#copyright p, #copyright a {
+    margin: 0 ;
+    color: white ;
+    font-weight: 400 ;
+    font-size: 12px ;
+} 
+    
+}
