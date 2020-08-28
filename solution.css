@@ -14,7 +14,7 @@ body {
 
  #introduction {
     height: 110vh ;
-    background: #F6FDFF url(bg-hero-desktop.svg) ;
+    background: #F6FDFF url(images/bg-hero-desktop.svg) ;
     padding: 8vh 5vw 8vh 5vw;
 }
 
@@ -250,7 +250,7 @@ a:nth-child(odd) {
  #introduction {
     width: 100vw ;
     height: 120vh ;
-    background: #F6FDFF url(bg-hero-mobile.svg);
+    background: #F6FDFF url(images/bg-hero-mobile.svg);
     padding: 3vh 4vw 3vh 4vw;
 }   
     
