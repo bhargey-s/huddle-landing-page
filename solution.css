@@ -4,18 +4,22 @@
     padding: 0 ;
     box-sizing: border-box ;
     font-family: 'Open Sans';
-    font-size: 18px ;
     color: hsl(192, 100%, 9%) ;
     font-weight: 700 ;
 }
+html {
+    font-size: 18px ;
+}
 body {
     position: relative ;
+    width: 100% ; 
 }
 
  #introduction {
-    height: 110vh ;
+    height: 38.5em ;
+/*    width: 100vw ;*/
     background: #F6FDFF url(images/bg-hero-desktop.svg) ;
-    padding: 8vh 5vw 8vh 5vw;
+    padding: 3.1em 4.5em 2.5em 4.5em;
 }
 
 #introFirstPart{
@@ -23,9 +27,11 @@ body {
     justify-content: space-between ;
 }
 
-
+#introFirstPart img{
+    width: 11em ; 
+} 
 #introFirstPart span a{
-    padding: 2.4vh 4.2vw; 
+    padding: 0.78em 3.5em; 
     margin: 0 ;
     border-radius: 50px ;
     background-color: white;  
@@ -38,31 +44,34 @@ body {
 }
 
 #introSecPart {
-    margin-top: 11vh;
+    margin-top: 3.9em;
     display: flex ;
 }
 
 #text {
-    width: 45vw;
-    margin-right: 5vw ;
+    width: 29em;
+    margin-right: 86.5px ;
     align-self: center ;
 }
 #text h1{
+    width: 24rem ;
     font-family: 'Poppins' ;
     font-weight: bolder;
-    font-size: 40px ;
-    margin-bottom: 5vh ;
+    font-size: 2.19em ;
+    margin-bottom: 2.7rem ;
 }
 #text p{
     color: hsl(192, 100%, 9%) ;
     font-family: 'Open Sans'; 
-    margin-bottom: 5vh ;
-    font-size: 20px ;
+    margin-bottom: 1.73rem ;
+    font-size: 17.5px ;
     font-weight: 400 ;
 }
 #text span {
-    padding: 3vh 5vw; 
-    display: inline-block;
+    width: 15.56em ;
+    height: 3.1em ;
+    padding: 1.17em 4em; 
+    display: flex;
     border-radius: 50px ;
     background-color: #FF52C1;
     box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
@@ -71,18 +80,19 @@ body {
     margin: 0 ;
     color: white ;
     text-align: center ;
+    font-size: 13.5px
 }
 #text span:hover {
     cursor: pointer ;
 }
 #introSecPart img {
-    width: 50% ;
+    width: 38em ;
 }
 
 main{
     display: flex ;
     flex-direction: column ;
-    padding: 26vh 7vw 48vh 7vw ;
+    padding: 9.14em 5.56em 19.5em 5.56em ;
 }
 
 .boxes {
@@ -90,7 +100,7 @@ main{
     margin: 0 auto 6vh auto;
     display: flex ;
     justify-content: space-between;
-    padding: 5% 0 ;
+    padding: 3.06em 2em 3.06em 6.4em ;
     border-radius: 10px ;
     box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
 }
@@ -98,119 +108,123 @@ main{
     margin: 0 auto ;
 }
 .boxes div {
-    width: 50% ;
+    width: 25em ;
     align-self: center ;
-    margin: 0 3% 0 5% ;
+/*    margin-right: 173px ;*/
+}
+.boxes:nth-child(2) div {
+/*    margin-left: 90px ;*/
 }
 .boxes div h1 {
-    width: 23vw ;
+    width: 18rem ;
     font-family: 'Poppins' ;
     font-weight: bolder;
-    font-size: 26px ;
-    padding-bottom: 5% ;
+    font-size: 1.56em ;
+    padding-bottom: 1em ;
 }
 .boxes div p{
-    width: 33vw;
+    width: 100% ;
     color: hsl(208, 11%, 55%) ;
     font-family: 'Open Sans'; 
-    font-size: 16.5px;
-    padding-bottom: 8% ;
+    font-size: 0.9em;
     font-weight: 400 ;
 }
 
 .boxes img {
-    height: 50vh ;
-    width: 30vw ;
-    margin: 0 3% 0 5% ;
-}
-.boxes:nth-child(2) img {
-    height: 46vh ;
+    height: 16.5em ;
+    width: 22.8em ;
 }
 
+
 footer {
-    height: 84vh ;
+    height: 30.7em ;
     background-color: hsl(192, 100%, 9%) ;
-    padding: 30vh 8vw 20vh 8vw;
+    padding: 10.3em 6.4em 6.2em 6.4em;
     display: flex ;
 }
 
 footer a, footer p, footer span {
     color: hsl(193, 100%, 96%) ;
     font-weight: 400 ;
-    font-size: 15px ;
+    font-size: 0.834rem ;
 }
 #contact {
-    width: 28vw ;
-    height: 40vh ;
-    margin-right: 8vw ;
+    width: 20.8rem ;
+    height: 14.35rem ;
+    margin-right: 6.4rem ;
 }
 #contact > img {
-    margin-bottom: 6vh ;
+    margin-bottom: 2.05rem ;
 }
 #contact ul li {
-    margin-bottom: 4vh ;
+    margin-bottom: 1.54rem ;
     list-style: none ;
 }
 #contact ul li p{
     display: inline;
 }
 #contact ul li img {
-    padding-right: 1.5vw ; 
+    padding-right: 0.9rem ; 
 }
 
 #nav {
-    width: 26vw ;
-    margin-right: 8vw ;
-    padding: 12vh 0 8vh 0;
+    width: 20.8rem ;
+    margin-right: 8rem ;
+    padding: 5rem 0 2.8rem 0;
     display: flex ;
     flex-direction: row;
     flex-wrap: wrap ;
 }
 
 #nav a {
-    width: 8vw ;
-    margin-bottom: 4vh ;
+    width: 5.6rem ;
+    margin-bottom: 1.54rem ;
 }
 a:nth-child(odd) {
-    margin-right: 8vw ;
+    margin-right: 5.6rem ;
 }
 #nav a:hover {
     cursor: pointer ;
 }
 
 #socialmedia {
-    width: 16vw ;
-    padding: 12vh 5vw 18vh 2vw ; 
+    width: 6.4rem;
+    padding: 4.1rem 0 8.2rem 0 ;
+    display: flex ;
+    justify-content: space-between
 }
 #socialmedia img {
-    margin-right: 1vw ;
-    width: 18px ;
-    height: 18px ;
+    width: 1rem ;
+    height: 1rem ;
 }
 #socialmedia img:hover {
     cursor: pointer ;
 }
 
 #floatbox {
-    width: 56vw ;
-    padding: 11vh 9vw 8vh 9vw;
+/*    width: 44.8rem ;*/
+    padding: 4.1rem 5rem 3.08rem 5rem;
     position: absolute ;
     bottom: 70vh ;
-    left: 22vw ;
+    left: 17.6rem ;
+    right: 17.6rem ;
     background-color: white ;
     border-radius: 10px ;
     box-shadow: 0 10px 44px 0 rgba(0,0,0,.05);
+    display: flex ;
+    flex-direction: column ;
 }
 #floatbox h1 {
     font-family: 'Poppins' ;
     font-weight: bolder;
-    font-size: 30px ;
-    margin-bottom: 7vh ;
+    font-size: 1.7em ;
+    margin-bottom: 2.05rem ;
+    text-align: center ;
 }
 #floatbox span {
-    width: 28vw ;
-    padding: 3vh 5vw; 
-    margin: 0 5vw ;
+    width: 22.4rem ;
+    padding: 1.38rem 4.8rem; 
+    margin: 0 auto;
     display: inline-block;
     border-radius: 50px ;
     background-color: #FF52C1;
@@ -219,7 +233,9 @@ a:nth-child(odd) {
 }
 #floatbox a {
     margin: 0 ;
+    width: 12.8rem ;
     color: white ;
+    font-size: 1rem ;
     font-weight: 700 ;
 }
 #floatbox span:hover {
@@ -227,11 +243,11 @@ a:nth-child(odd) {
 }
 
 #copyright {
+    width: 55vw ;
     position: absolute ;
-    width: 70vw ;
     bottom: 1vh ;
-    left: 15vw ;
-    margin-top: 5vh ;
+    left: 18rem ;
+/*    margin-top: 5vh;*/
     color: white ;
     text-align: center ;
 }
@@ -466,8 +482,6 @@ a:nth-child(6) {
 }
 #socialmedia img {
     margin-right: 4vw ;
-    width: 18px ;
-    height: 18px ;
 }
 
 #socialmedia img:hover {
